@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="034.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\libmas\libmas.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="034.ico" />
+  </ItemGroup>
+
+</Project>
